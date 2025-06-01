@@ -49,7 +49,7 @@ Jalankan perintah streamlit berikut di terminal atau command prompt:
 ```
 streamlit run app.py
 ```
-Prototype yang telah di-deploy dengan Streamlit dapat diakses melalui link: xxx
+Prototype yang telah di-deploy dengan Streamlit dapat diakses melalui link: [Link Prototype](https://jayajayainstitut-student-predict.streamlit.app/)
 
 ## Conclusion
 Berdasarkan analisis dan pemodelan ML pada kasus ini, dapat diambil beberapa wawasan dan informasi mengenai faktor-faktor yang mempengaruhi kemungkinan dropout siswa Jaya Jaya Institut, yang antara lain Curricular_units_2nd_sem_grade, Gender, Admission_grade, Scholarship_holder, dan Displaced. Model klasifikasi dengan XGBoost yang telah dibangun memperoleh skor precision=0.95, recall=0.82, dan F1=0.88 untuk label 0, sedangkan precision=0.89, recall=0.97, dan F1=0.93 untuk label 1, mengindikasikan performa model yang dapat bekerja dengan baik dalam mengklasifikasi, meskipun distribusi data seharusnya lebih seimbang agar performa model menjadi lebih baik dan adil. Dashboard yang dibuat dapat membantu memonitor performa siswa, sementara prototype yang dibuat dapat membantu memprediksi kemungkinan dropout siswa.
